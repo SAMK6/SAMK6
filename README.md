@@ -1,5 +1,5 @@
 - I’m interested in all things computer science and mathematics.
-- I’m currently studying towards a double major in computer science and mathematics at the university of westrn ontario.
+- I’m currently studying towards a double major in computer science and mathematics at the university of Western Ontario.
 - How to reach me: sfeldm2@uwo.ca.
 
 <!---
