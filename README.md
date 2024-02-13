@@ -2,7 +2,7 @@
 - I’m currently studying towards a double major in computer science and mathematics at the university of Western Ontario.
 - How to reach me: sfeldm2@uwo.ca.
 
-test changes
+test change
 
 <!---
 SAMK6/SAMK6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
