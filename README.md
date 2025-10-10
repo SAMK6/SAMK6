@@ -1,7 +1,7 @@
-- I’m interested in all things computer science and mathematics
+- I’m currently studying cryptography and computer security but I also like game playing computer programs
 - Honours BSc graduate from the University of Western Ontario, with a double major in Computer Science and Mathematics
-- Beginning my masters degree at the University of Alberta September 2025
-- How to reach me: sfeldm2@uwo.ca
+- MSc student/researcher at the University of Alberta Departement of Computing Science
+- How to reach me: sefeldma@ualberta.ca
 
 <!---
 SAMK6/SAMK6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
