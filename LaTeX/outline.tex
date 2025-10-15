@@ -1,0 +1,120 @@
+\documentclass[11pt,reqno]{article}
+% Common alternatives:
+% \documentclass[11pt]{amsart}
+% \documentclass[conference]{IEEEtran}
+
+% ===============================
+% Packages
+% ===============================
+
+%  Math and symbols 
+\usepackage{amsmath, amssymb, amsthm, amsfonts, mathtools}
+\usepackage{bm} % Bold math symbols
+\usepackage{mathrsfs} % Fancy math script font
+
+%  Fonts and encoding 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} % Improved Latin Modern font
+\usepackage{microtype} % Better kerning & justification
+
+% Page layout 
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+% Figures and tables 
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{booktabs} % Nicer tables
+\usepackage{array}
+
+% References & hyperlinks 
+\usepackage[numbers,sort&compress]{natbib}  % For BibTeX citations
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=teal]{hyperref} % use \bibliographystyle{plainnat}
+\usepackage[capitalize,nameinlink]{cleveref} % Smart refs (\cref)
+
+% Algorithms and pseudocode 
+\usepackage{algorithm}
+\usepackage{algpseudocode} % or algorithmicx
+% Example usage:
+% \begin{algorithm}
+% \caption{Example}
+% \begin{algorithmic}[1]
+% \State ...
+% \end{algorithmic}
+% \end{algorithm}
+
+
+% MISC 
+\usepackage{enumitem}         % Control spacing in lists
+\usepackage{xcolor}           % Colors for text
+\usepackage{comment}          % Comment out large blocks
+
+% ===============================
+% Theorem environments
+% ===============================
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+
+% ===============================
+% Title info
+% ===============================
+
+\title{A Sample Math/CS Paper in \LaTeX}
+\author{Your Name \\ \small Your Institution \\ \small \texttt{you@example.com}}
+\date{\today}
+
+% ===============================
+% Document
+% ===============================
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a short abstract describing the purpose and contributions of the paper.
+\end{abstract}
+
+\section{Introduction}
+
+This is the introduction. You can cite papers using \cite{knuth1990texbook}.
+
+\section{Main Results}
+
+\begin{theorem}
+Let $f$ be a continuous function on $[0,1]$. Then $f$ attains its maximum.
+\end{theorem}
+
+\begin{proof}
+This follows from the extreme value theorem.
+\end{proof}
+
+\section{Conclusion}
+
+Conclusions go here.
+
+
+
+
+% ===============================
+% References (BibTeX)
+% ===============================
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
