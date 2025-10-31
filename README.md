@@ -1,5 +1,5 @@
-- Honours BSc graduate from the University of Western Ontario, with a double major in Computer Science and Mathematics
 - MSc student/researcher at the University of Alberta, Departement of Computing Science
+- Honours BSc graduate from the University of Western Ontario, with a double major in Computer Science and Mathematics
 - I’m currently studying cryptography and computer security but I also like game playing computer programs
 - How to reach me: sefeldma@ualberta.ca
 
